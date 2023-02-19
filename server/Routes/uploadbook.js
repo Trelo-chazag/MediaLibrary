@@ -4,7 +4,7 @@ const ErrMessages = require("../Api/Lang/errors/upload.json");
 const FormValidator = require('../utils/formValidatore');
 
 const validator = new FormValidator();
-const Books = require("../Api/Content/Books.json");
+const Books = require("../Api/Content/books.json");
 
 const uploadBookRoute = (req, res)=>{
     const ERRORS = [];
